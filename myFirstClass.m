@@ -1,5 +1,5 @@
 classdef myFirstClass
-  %MESURE Cette class devrait remplacer une structure
+  %myFirstClass This class should be replace a struct
   %   usage: m = myFirstClass
   %   m.field = 'temp'
   %     m.value=[10 20 30]

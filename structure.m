@@ -7,8 +7,8 @@ value2 = [33, 34, 35];
  
 s = struct(field,value,field2,value2)
 
-s.temp
-s.psal
+var = 'dens';
+s.(var) = [20,21,22]
 
 s.psali = 3
 

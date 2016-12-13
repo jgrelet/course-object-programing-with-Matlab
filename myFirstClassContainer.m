@@ -1,12 +1,12 @@
-classdef mySecondClassContainer < containers.Map
+classdef myFirstClassContainer 
   properties
    map % containers.Map
   end
   
   methods
-    function myFirstClassContainer(theKeys, theValues) % constructor
+    function self = myFirstClassContainer(theKeys, theValues) % constructor
       % call containers.Map constructeur
-      self@containers.Map('KeyType', 'char', 'ValueType', 'any')    
+      self.map = containers.Map(theKeys, theValues)    
     end
  
   end  % end of public function
